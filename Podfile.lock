@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Eureka (1.5.0)
+  - EZAlertController (0.3)
+  - Font-Awesome-Swift (1.4.7)
+  - Google-Material-Design-Icons-Swift (1.0.1)
+  - Hue (1.1)
+  - PageMenu (1.2.9)
+  - SwiftOverlays (2.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3)
+  - Eureka (~> 1.5)
+  - EZAlertController (= 0.3)
+  - Font-Awesome-Swift (~> 1.4.7)
+  - Google-Material-Design-Icons-Swift (~> 1.0.1)
+  - Hue
+  - PageMenu
+  - SwiftOverlays (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Eureka: 2fb37bb50569c62ee3284689d5b7aca694b040e0
+  EZAlertController: 178808422e5281c3ffb20c28cb3eb555088bf07e
+  Font-Awesome-Swift: 0131fd0f683ac024ce9abf1fdbc9fb482150ce49
+  Google-Material-Design-Icons-Swift: ff587db57d713061f66b8457229d1af2cae84c56
+  Hue: ed6781be844b58b2a38150cfd4bf24c33449faf8
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  SwiftOverlays: 317afbb3eeb7f9d8545b1e6592500c89aadb6d8f
+
+COCOAPODS: 0.39.0

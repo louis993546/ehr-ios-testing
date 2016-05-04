@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2EFA851D76FD2016A281D6 /* Pods_Easymed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB04C7FF3720FFB6B697E73E /* Pods_Easymed.framework */; };
+		BF1CE9A31CD894C700AE2E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE9A21CD894C700AE2E91 /* AppDelegate.swift */; };
+		BF1CE9A51CD894C700AE2E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE9A41CD894C700AE2E91 /* ViewController.swift */; };
+		BF1CE9A81CD894C700AE2E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE9A61CD894C700AE2E91 /* Main.storyboard */; };
+		BF1CE9AA1CD894C700AE2E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE9A91CD894C700AE2E91 /* Assets.xcassets */; };
+		BF1CE9AD1CD894C700AE2E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE9AB1CD894C700AE2E91 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		534E309C5A397BE6F94529D6 /* Pods-Easymed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easymed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easymed/Pods-Easymed.release.xcconfig"; sourceTree = "<group>"; };
+		BB04C7FF3720FFB6B697E73E /* Pods_Easymed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easymed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1CE99F1CD894C700AE2E91 /* Easymed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easymed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1CE9A21CD894C700AE2E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF1CE9A41CD894C700AE2E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF1CE9A71CD894C700AE2E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF1CE9A91CD894C700AE2E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1CE9AC1CD894C700AE2E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF1CE9AE1CD894C700AE2E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F6C85E4E7F3898518B8444 /* Pods-Easymed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easymed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easymed/Pods-Easymed.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1CE99C1CD894C700AE2E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2EFA851D76FD2016A281D6 /* Pods_Easymed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376F3278ED184EB0BB0D3617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB04C7FF3720FFB6B697E73E /* Pods_Easymed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B929926D4646674EBFAFAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9F6C85E4E7F3898518B8444 /* Pods-Easymed.debug.xcconfig */,
+				534E309C5A397BE6F94529D6 /* Pods-Easymed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF1CE9961CD894C700AE2E91 = {
+			isa = PBXGroup;
+			children = (
+				BF1CE9A11CD894C700AE2E91 /* Easymed */,
+				BF1CE9A01CD894C700AE2E91 /* Products */,
+				5B929926D4646674EBFAFAA6 /* Pods */,
+				376F3278ED184EB0BB0D3617 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1CE9A01CD894C700AE2E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE99F1CD894C700AE2E91 /* Easymed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1CE9A11CD894C700AE2E91 /* Easymed */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE9A21CD894C700AE2E91 /* AppDelegate.swift */,
+				BF1CE9A41CD894C700AE2E91 /* ViewController.swift */,
+				BF1CE9A61CD894C700AE2E91 /* Main.storyboard */,
+				BF1CE9A91CD894C700AE2E91 /* Assets.xcassets */,
+				BF1CE9AB1CD894C700AE2E91 /* LaunchScreen.storyboard */,
+				BF1CE9AE1CD894C700AE2E91 /* Info.plist */,
+			);
+			path = Easymed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1CE99E1CD894C700AE2E91 /* Easymed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1CE9B11CD894C700AE2E91 /* Build configuration list for PBXNativeTarget "Easymed" */;
+			buildPhases = (
+				BA6931D3B1C2B736900285AA /* Check Pods Manifest.lock */,
+				BF1CE99B1CD894C700AE2E91 /* Sources */,
+				BF1CE99C1CD894C700AE2E91 /* Frameworks */,
+				BF1CE99D1CD894C700AE2E91 /* Resources */,
+				6F7992C5AB4BF33C427DD873 /* Embed Pods Frameworks */,
+				0FEF2D65553395A7355A0598 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Easymed;
+			productName = Easymed;
+			productReference = BF1CE99F1CD894C700AE2E91 /* Easymed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1CE9971CD894C700AE2E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "HKUST 2015-2016 CSE FYP Group 43";
+				TargetAttributes = {
+					BF1CE99E1CD894C700AE2E91 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = F4TL4LM96Q;
+					};
+				};
+			};
+			buildConfigurationList = BF1CE99A1CD894C700AE2E91 /* Build configuration list for PBXProject "Easymed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1CE9961CD894C700AE2E91;
+			productRefGroup = BF1CE9A01CD894C700AE2E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1CE99E1CD894C700AE2E91 /* Easymed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1CE99D1CD894C700AE2E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE9AD1CD894C700AE2E91 /* LaunchScreen.storyboard in Resources */,
+				BF1CE9AA1CD894C700AE2E91 /* Assets.xcassets in Resources */,
+				BF1CE9A81CD894C700AE2E91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FEF2D65553395A7355A0598 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easymed/Pods-Easymed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7992C5AB4BF33C427DD873 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easymed/Pods-Easymed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6931D3B1C2B736900285AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1CE99B1CD894C700AE2E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE9A51CD894C700AE2E91 /* ViewController.swift in Sources */,
+				BF1CE9A31CD894C700AE2E91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF1CE9A61CD894C700AE2E91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1CE9A71CD894C700AE2E91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1CE9AB1CD894C700AE2E91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1CE9AC1CD894C700AE2E91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1CE9AF1CD894C700AE2E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1CE9B01CD894C700AE2E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1CE9B21CD894C700AE2E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F6C85E4E7F3898518B8444 /* Pods-Easymed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Easymed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.hkust1516csefyp43.Easymed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF1CE9B31CD894C700AE2E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534E309C5A397BE6F94529D6 /* Pods-Easymed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Easymed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.hkust1516csefyp43.Easymed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1CE99A1CD894C700AE2E91 /* Build configuration list for PBXProject "Easymed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE9AF1CD894C700AE2E91 /* Debug */,
+				BF1CE9B01CD894C700AE2E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1CE9B11CD894C700AE2E91 /* Build configuration list for PBXNativeTarget "Easymed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE9B21CD894C700AE2E91 /* Debug */,
+				BF1CE9B31CD894C700AE2E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1CE9971CD894C700AE2E91 /* Project object */;
+}
