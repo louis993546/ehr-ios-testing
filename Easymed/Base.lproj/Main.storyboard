@@ -25,61 +25,88 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7P8-4P-mvY">
-                                <rect key="frame" x="279" y="550" width="42" height="30"/>
+                                <rect key="frame" x="279" y="560" width="42" height="30"/>
                                 <state key="normal" title="About"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGR-3C-TpL">
-                                <rect key="frame" x="278" y="500" width="44" height="30"/>
+                                <rect key="frame" x="278" y="520" width="44" height="30"/>
                                 <state key="normal" title="Admin"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cp-wA-ngi">
-                                <rect key="frame" x="273" y="450" width="54" height="30"/>
+                                <rect key="frame" x="273" y="480" width="54" height="30"/>
                                 <state key="normal" title="Reports"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ue-ix-7I1">
-                                <rect key="frame" x="266" y="350" width="69" height="30"/>
+                                <rect key="frame" x="266" y="400" width="69" height="30"/>
                                 <state key="normal" title="Pharmacy"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIr-se-ZOH">
-                                <rect key="frame" x="257" y="300" width="87" height="30"/>
+                                <rect key="frame" x="257" y="360" width="87" height="30"/>
                                 <state key="normal" title="Consultation"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcu-xi-TVV">
-                                <rect key="frame" x="279" y="250" width="43" height="30"/>
+                                <rect key="frame" x="279" y="320" width="43" height="30"/>
                                 <state key="normal" title="Triage"/>
                                 <connections>
                                     <segue destination="9OU-Nl-JGU" kind="show" id="Pz5-SC-5Nf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p55-Dt-a8c">
-                                <rect key="frame" x="268" y="400" width="64" height="30"/>
+                                <rect key="frame" x="268" y="440" width="64" height="30"/>
                                 <state key="normal" title="Inventory"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhM-ib-zux">
+                                <rect key="frame" x="532" y="20" width="48" height="30"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="displayLogoutDialog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yAs-zS-Duj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFQ-J3-6hM">
+                                <rect key="frame" x="20" y="20" width="44" height="30"/>
+                                <state key="normal" title="Profile"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="xFQ-J3-6hM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="07r-Jz-KUA"/>
+                            <constraint firstItem="OhM-ib-zux" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0BA-Yh-qF5"/>
                             <constraint firstItem="1cp-wA-ngi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3bH-WX-ubc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OhM-ib-zux" secondAttribute="trailing" id="FgH-iV-nMN"/>
                             <constraint firstItem="Zcu-xi-TVV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FpK-XV-8CY"/>
-                            <constraint firstItem="MGR-3C-TpL" firstAttribute="top" secondItem="1cp-wA-ngi" secondAttribute="bottom" constant="20" id="IiW-IS-cS7"/>
+                            <constraint firstItem="xFQ-J3-6hM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="GVK-Py-QKu"/>
+                            <constraint firstItem="MGR-3C-TpL" firstAttribute="top" secondItem="1cp-wA-ngi" secondAttribute="bottom" constant="10" id="IiW-IS-cS7"/>
                             <constraint firstItem="7P8-4P-mvY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jb0-g0-5c6"/>
                             <constraint firstItem="FIr-se-ZOH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P2W-wg-yya"/>
-                            <constraint firstItem="7ue-ix-7I1" firstAttribute="top" secondItem="FIr-se-ZOH" secondAttribute="bottom" constant="20" id="Pa6-8M-wqB"/>
-                            <constraint firstItem="FIr-se-ZOH" firstAttribute="top" secondItem="Zcu-xi-TVV" secondAttribute="bottom" constant="20" id="QHY-Rg-TnQ"/>
-                            <constraint firstItem="p55-Dt-a8c" firstAttribute="top" secondItem="7ue-ix-7I1" secondAttribute="bottom" constant="20" id="Y3M-Vx-IHS"/>
+                            <constraint firstItem="7ue-ix-7I1" firstAttribute="top" secondItem="FIr-se-ZOH" secondAttribute="bottom" constant="10" id="Pa6-8M-wqB"/>
+                            <constraint firstItem="FIr-se-ZOH" firstAttribute="top" secondItem="Zcu-xi-TVV" secondAttribute="bottom" constant="10" id="QHY-Rg-TnQ"/>
+                            <constraint firstItem="p55-Dt-a8c" firstAttribute="top" secondItem="7ue-ix-7I1" secondAttribute="bottom" constant="10" id="Y3M-Vx-IHS"/>
                             <constraint firstItem="xgB-z1-c2c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="eNE-OB-SGB"/>
-                            <constraint firstItem="7P8-4P-mvY" firstAttribute="top" secondItem="MGR-3C-TpL" secondAttribute="bottom" constant="20" id="fk3-FD-2nL"/>
+                            <constraint firstItem="7P8-4P-mvY" firstAttribute="top" secondItem="MGR-3C-TpL" secondAttribute="bottom" constant="10" id="fk3-FD-2nL"/>
                             <constraint firstItem="7ue-ix-7I1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ljx-YV-Rwe"/>
                             <constraint firstItem="MGR-3C-TpL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qUT-R7-m7f"/>
                             <constraint firstItem="p55-Dt-a8c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rXQ-60-PvA"/>
                             <constraint firstItem="xgB-z1-c2c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sKM-7h-zDh"/>
-                            <constraint firstItem="1cp-wA-ngi" firstAttribute="top" secondItem="p55-Dt-a8c" secondAttribute="bottom" constant="20" id="vLg-8Y-Npv"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="7P8-4P-mvY" secondAttribute="bottom" constant="20" id="yNW-GQ-D9F"/>
+                            <constraint firstItem="1cp-wA-ngi" firstAttribute="top" secondItem="p55-Dt-a8c" secondAttribute="bottom" constant="10" id="vLg-8Y-Npv"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7P8-4P-mvY" secondAttribute="bottom" constant="10" id="yNW-GQ-D9F"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonAbout" destination="7P8-4P-mvY" id="W7M-gn-8uz"/>
+                        <outlet property="buttonAdmin" destination="MGR-3C-TpL" id="hY7-fx-0fI"/>
+                        <outlet property="buttonConsultation" destination="FIr-se-ZOH" id="QLt-Sl-eqg"/>
+                        <outlet property="buttonInventory" destination="p55-Dt-a8c" id="tr9-95-hXe"/>
+                        <outlet property="buttonLogout" destination="OhM-ib-zux" id="rR2-lR-FiE"/>
+                        <outlet property="buttonPharmacy" destination="7ue-ix-7I1" id="byP-xR-UpE"/>
+                        <outlet property="buttonProfile" destination="xFQ-J3-6hM" id="EmY-e7-fKy"/>
+                        <outlet property="buttonReports" destination="1cp-wA-ngi" id="aIG-9L-PHl"/>
+                        <outlet property="buttonTriage" destination="Zcu-xi-TVV" id="6hS-Yv-1Mv"/>
+                        <outlet property="labelAppName" destination="xgB-z1-c2c" id="5hy-57-YgO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273" y="91"/>
+            <point key="canvasLocation" x="273" y="71"/>
         </scene>
         <!--Triage-->
         <scene sceneID="taW-Ca-bOf">
