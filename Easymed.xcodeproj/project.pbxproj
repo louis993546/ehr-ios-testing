@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A2EFA851D76FD2016A281D6 /* Pods_Easymed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB04C7FF3720FFB6B697E73E /* Pods_Easymed.framework */; };
 		BF1CE9A31CD894C700AE2E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE9A21CD894C700AE2E91 /* AppDelegate.swift */; };
 		BF1CE9A51CD894C700AE2E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE9A41CD894C700AE2E91 /* ViewController.swift */; };
 		BF1CE9A81CD894C700AE2E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE9A61CD894C700AE2E91 /* Main.storyboard */; };
 		BF1CE9AA1CD894C700AE2E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE9A91CD894C700AE2E91 /* Assets.xcassets */; };
 		BF1CE9AD1CD894C700AE2E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE9AB1CD894C700AE2E91 /* LaunchScreen.storyboard */; };
+		C259479B81733F00704CF01D /* Pods_Easymed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752862F0462E96037AD93C8F /* Pods_Easymed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		534E309C5A397BE6F94529D6 /* Pods-Easymed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easymed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easymed/Pods-Easymed.release.xcconfig"; sourceTree = "<group>"; };
-		BB04C7FF3720FFB6B697E73E /* Pods_Easymed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easymed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0BB39BA1E1003FDE047446 /* Pods-Easymed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easymed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easymed/Pods-Easymed.debug.xcconfig"; sourceTree = "<group>"; };
+		752862F0462E96037AD93C8F /* Pods_Easymed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easymed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE07D7342B2D0947D878B10 /* Pods-Easymed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easymed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easymed/Pods-Easymed.release.xcconfig"; sourceTree = "<group>"; };
 		BF1CE99F1CD894C700AE2E91 /* Easymed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easymed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1CE9A21CD894C700AE2E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF1CE9A41CD894C700AE2E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		BF1CE9A91CD894C700AE2E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1CE9AC1CD894C700AE2E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF1CE9AE1CD894C700AE2E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9F6C85E4E7F3898518B8444 /* Pods-Easymed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easymed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easymed/Pods-Easymed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,26 +33,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2EFA851D76FD2016A281D6 /* Pods_Easymed.framework in Frameworks */,
+				C259479B81733F00704CF01D /* Pods_Easymed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		376F3278ED184EB0BB0D3617 /* Frameworks */ = {
+		000A56CFF5D85B66BBB7EA6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB04C7FF3720FFB6B697E73E /* Pods_Easymed.framework */,
+				752862F0462E96037AD93C8F /* Pods_Easymed.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B929926D4646674EBFAFAA6 /* Pods */ = {
+		0D39BFFA9FBA7F028A9C659E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9F6C85E4E7F3898518B8444 /* Pods-Easymed.debug.xcconfig */,
-				534E309C5A397BE6F94529D6 /* Pods-Easymed.release.xcconfig */,
+				0A0BB39BA1E1003FDE047446 /* Pods-Easymed.debug.xcconfig */,
+				BEE07D7342B2D0947D878B10 /* Pods-Easymed.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -62,8 +62,8 @@
 			children = (
 				BF1CE9A11CD894C700AE2E91 /* Easymed */,
 				BF1CE9A01CD894C700AE2E91 /* Products */,
-				5B929926D4646674EBFAFAA6 /* Pods */,
-				376F3278ED184EB0BB0D3617 /* Frameworks */,
+				0D39BFFA9FBA7F028A9C659E /* Pods */,
+				000A56CFF5D85B66BBB7EA6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,12 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF1CE9B11CD894C700AE2E91 /* Build configuration list for PBXNativeTarget "Easymed" */;
 			buildPhases = (
-				BA6931D3B1C2B736900285AA /* Check Pods Manifest.lock */,
+				13102202D3A9439C58BD47EA /* 📦 Check Pods Manifest.lock */,
 				BF1CE99B1CD894C700AE2E91 /* Sources */,
 				BF1CE99C1CD894C700AE2E91 /* Frameworks */,
 				BF1CE99D1CD894C700AE2E91 /* Resources */,
-				6F7992C5AB4BF33C427DD873 /* Embed Pods Frameworks */,
-				0FEF2D65553395A7355A0598 /* Copy Pods Resources */,
+				647A35DABD470613B667381B /* 📦 Embed Pods Frameworks */,
+				BB9A67216A93FDFF8714B7D0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,29 +159,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FEF2D65553395A7355A0598 /* Copy Pods Resources */ = {
+		13102202D3A9439C58BD47EA /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easymed/Pods-Easymed-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6F7992C5AB4BF33C427DD873 /* Embed Pods Frameworks */ = {
+		647A35DABD470613B667381B /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,19 +189,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easymed/Pods-Easymed-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA6931D3B1C2B736900285AA /* Check Pods Manifest.lock */ = {
+		BB9A67216A93FDFF8714B7D0 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easymed/Pods-Easymed-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -274,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +323,7 @@
 		};
 		BF1CE9B21CD894C700AE2E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9F6C85E4E7F3898518B8444 /* Pods-Easymed.debug.xcconfig */;
+			baseConfigurationReference = 0A0BB39BA1E1003FDE047446 /* Pods-Easymed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Easymed/Info.plist;
@@ -336,7 +336,7 @@
 		};
 		BF1CE9B31CD894C700AE2E91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534E309C5A397BE6F94529D6 /* Pods-Easymed.release.xcconfig */;
+			baseConfigurationReference = BEE07D7342B2D0947D878B10 /* Pods-Easymed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Easymed/Info.plist;
